@@ -1,0 +1,20 @@
+/** variables **/
+:root{
+--bg-color: #AEC3AE;
+--font-color: #6A9C89;
+}
+
+.html {
+    margin: 0;
+    padding: 0;
+}
+
+.default {
+    background-color: var(--bg-color);
+}
+
+.personal-info {
+    > img {
+        border-radius: 20px;
+    }
+}
