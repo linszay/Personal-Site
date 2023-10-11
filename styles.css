@@ -122,7 +122,6 @@
     justify-content: flex-start;
     margin: auto;
     padding: 40px;
-    width: 80%;
 
     > span {
         max-width: 400px;
@@ -133,14 +132,68 @@
     }
 }
 
+
+/* Styling for Contact page */
+.cform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 0 2rem;
+  }
+
+  label {
+    display: block;
+    font-size: 1.4rem;
+    padding: 0 0 .5rem;
+  }
+
+  input[type="text"], input[type="email"], textarea {
+    position: relative;
+    width: 80%;
+    padding: 1.2rem;
+    line-height: 1;
+    border: .1rem solid black;
+    background-color: var(--bg-color);
+  }
+
+  input[type="text"], input[type="email"] {
+    padding-right: 3rem;
+  }
+  
+  ::placeholder {
+    font-style: italic;
+  }
+
+  input[type="submit"] {
+    background-color: var(--font-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: var(--font-family);
+  }
+
+  input[type="submit"]:hover {
+    background-color: #7b9d90;
+  }
+
 /* Styling for the Footer */
 .footer {
     background-color: #7b9d90;
     padding: 10px;
     text-align: center;
-    position: fixed;
     bottom: 0;
-    width: 100%;
 }
 
 /* Style the footer links */
