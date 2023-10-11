@@ -77,66 +77,42 @@
   }
 
 .personal-info {
+    border: 1px solid #ccc;
+    padding: 15px;
     > img {
         border-radius: 50px;
         max-width: 120px;
         max-height: 120px;
     }
-    > h1 {
-        font-family: var(--font-family);
-    }
-
-    > p {
-        font-family: var(--font-family);
-        > a {
-            font-family: var(--font-family);
-        }
-    }
-
-    > span {
-        font-family: var(--font-family);
-    }
 }
 
 .projects {
-    > h2 {
-        font-family: var(--font-family);
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    > img {
+        max-width: 150px;
+        padding: 20px;
     }
+  }
+  
+  .paragraph {
+    color: #555;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: #222;
+    line-height: 24px;
+  }
 
-    > ul > li {
-        font-family: var(--font-family);
-    }
-}
-
-.technologies {
-    > h2 {
-        font-family: var(--font-family);
-    }
-    
-    > ul > li {
-        font-family: var(--font-family);
-    }
-}
-
-.experience {
-    > h2 {
-        font-family: var(--font-family);
-    }
-
-    > ul > li {
-        font-family: var(--font-family);
-    }
-}
-
-.education {
-    > h2 {
-        font-family: var(--font-family);
-    }
-
-    > ul > li {
-        font-family: var(--font-family);
-    }
-}
 
 /* Styling for the about page */
 
