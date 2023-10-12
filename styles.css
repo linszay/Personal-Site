@@ -89,6 +89,7 @@
         max-width: 150px;
         padding: 20px;
     }
+    
   }
   
   .paragraph {
@@ -99,6 +100,7 @@
   
   .content {
     padding: 20px;
+    font-family: var(--font-family);
   }
   
   .title {
